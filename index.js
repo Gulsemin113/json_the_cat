@@ -1,6 +1,6 @@
 const { fetchBreedDescription } = require('./breedFetcher');
 
-fetchBreedDescription(breedName, (error, desc) => {
+fetchBreedDescription('Siberian', (error, desc) => {
 
   if (error) {
     console.err('Error fetch details:', error);
